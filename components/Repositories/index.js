@@ -28,7 +28,7 @@ const Repositories = () => {
     {repos.map((repo) => (
     <Container key={repo.id} >
       <h3>{ repo.name }</h3>
-      <h5>Criado em { format(parseISO(repo.created_at), 'dd/MMyyy') }</h5>
+      <h5>Criado em { format(parseISO(repo.created_at), 'dd/MM/yyy') }</h5>
       <p>{repo.description}</p>
     </Container>))}
   </>
