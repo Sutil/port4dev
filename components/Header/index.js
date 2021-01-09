@@ -14,6 +14,7 @@ const Header = () => {
   return <Container>
     <Image src={userData.avatarURL} />
     <Name>{userData.name}</Name>
+    <p>{userData.bio}</p>
   </Container>
 }
 
