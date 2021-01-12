@@ -12,5 +12,6 @@
   },
   "scripts": {
     "dev": "next"
-  }
+  },
+  "devDependencies": {}
 }

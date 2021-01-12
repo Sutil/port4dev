@@ -3,6 +3,9 @@ import {primary, secondary} from '../../colors';
 
 export const Section = styled.section`
   
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   margin: 20px;
 
   .border-frame {

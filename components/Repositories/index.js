@@ -28,6 +28,7 @@ const Repositories = () => {
   return <>
     {repos.map((repo) => (
     <Container key={repo.id} >
+      <img src="https://github.com/Sutil/tabela-aninhada-angular/raw/master/pix.jpg" />
       <h3>{ repo.name }</h3>
       <h5>Criado em { format(parseISO(repo.created_at), "dd 'de' MMMM 'de' yyyy", {locale: pt}) }</h5>
       <p>{repo.description}</p>

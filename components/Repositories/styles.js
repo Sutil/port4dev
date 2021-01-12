@@ -14,6 +14,10 @@ export const Container = styled.section`
     box-shadow: 1px 1px 5px rgba(200,200,200, .50);
   }
 
+  img {
+    width: 90%;
+  }
+
   h5 {
     color: #AAAAAA;
   }
